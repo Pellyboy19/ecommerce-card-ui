@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>clothing brand</title>
+    <style>
+      .body{
+        height: 3000px;
+      }
+
+      .box-cloth-container{
+        width: 250px;
+        height: 350px;
+        overflow: hidden;
+        position: relative;
+        
+        
+      }
+
+      .cloth{
+        width: 100%;
+        height: 122%;
+        object-fit: cover;
+        object-position: 37% -35px;
+      }
+
+      .off{
+        position: absolute;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 10px;
+        right: 0;
+        padding: 8px;
+      }
+
+      .button{
+       border: solid;
+       padding: 8px 10px;
+       border-width: 1px;
+       border-color: black;
+      }
+
+      .overlay{
+        background-color: rgba(128, 128, 128, 0.7 );
+        height: 100px;
+        border: solid;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="box-cloth-container">
+      <img class="cloth" src="thumnails/thumnail cloth.webp" alt="">
+      <div class="off">20% OFF</div>
+      <div class="overlay">
+        <button class="button">Add to cart</button>
+      </div>
+      
+    </div>
+
+
+  </body>
+</html>
